@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: radial-gradient(circle at center, #001f3f 0%, #001f3f 30%, #000 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+/* If you prefer a background image instead, replace the body background as follows: */
+/* 
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('your-image-path.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0;
+}
+*/
+
+.neon-container {
+    text-align: center;
+    padding: 40px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #00f;
+}
+
+.neon-text {
+    font-size: 2rem;
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00f, 0 0 40px #00f;
+    margin-bottom: 20px;
+}
+
+.neon-input-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 20px #00ffff, 0 0 30px #00f;
+}
+
+.neon-input {
+    width: 100%;
+    max-width: 350px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.2);
+    color: #00ffff;
+    font-size: 1rem;
+    text-align: center;
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #00f;
+}
+
+.neon-input:focus {
+    outline: none;
+    box-shadow: 0 0 20px #00ffff, 0 0 30px #00f;
+}
+
+.neon-button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 2px solid #00ffff;
+    border-radius: 5px;
+    color: #00ffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #00f;
+}
+
+.neon-button:hover {
+    box-shadow: 0 0 20px #00ffff, 0 0 40px #00f;
+}
+
+.neon-result-box {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #00ffff;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 15px #00ffff, 0 0 30px #00f;
+}
+
+.neon-result {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00ffff;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00f;
+}
+
+.buttons {
+    margin-top: 20px;
+}

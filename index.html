@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABHI PREDICTOR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="neon-container">
+        <h1 class="neon-text">ABHI PREDICTOR</h1>
+        
+        <!-- Redesigned Input Box -->
+        <div class="neon-input-box">
+            <input type="text" id="periodInput" class="neon-input" placeholder="Enter period number">
+        </div>
+
+        <!-- Button renamed to PREDICT -->
+        <button id="predictButton" class="neon-button" onclick="makePrediction()">PREDICT</button>
+        
+        <div id="predictionBox" class="neon-result-box">
+            <p id="predictionResult" class="neon-result">PREDICTION ➪ </p>
+        </div>
+        
+        <div class="buttons">
+            <button class="neon-button" onclick="location.reload()">REFRESH</button>
+            <button class="neon-button" onclick="window.open('https://t.me/abhihackerrr', '_blank')">TELEGRAM CHANNEL</button>
+        </div>
+    </div>
+</body>
+</html>
